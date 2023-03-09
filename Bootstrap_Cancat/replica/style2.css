@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../archivos/fondo1.jpg);
+    background-size: cover;
+    height: auto;
+}
+@font-face{
+    font-family: holyfat;
+    src: url(../archivos/Holyfat.ttf);
+}
+.text-holyfat{
+    font-size: 40px;
+    font-family: holyfat;
+}
+.nav-link{
+    color: #4CDA00;
+}
+.nav-link:hover{
+    background-color: #4CDA00;
+    color: #fff;
+}
+.fondo-menu{
+    background: #fff;
+    border-radius: 10px;
+    width: 500px;
+    height:75px;
+}
+.logohead{
+    filter: brightness(150%);
+}
+.strong{
+    font-weight: 1000;
+    color: #4CDA00;
+}
+.strong1{
+    color: #4CDA00;
+}
+.subtitulo1{    
+    background-color: #ffffffc5;
+    color: #02C6DB;
+    max-width: 520px !important;
+    min-width: 400px !important;
+    border-radius: 10px;
+    min-height: 35px !important;
+}
+.subtitulo2{
+    background-color: #02c5dbd0;
+    color: #fff;
+    max-width: 520px !important;
+    min-width: 400px !important;
+    border-radius: 10px;
+    min-height: 35px !important;
+}
+.subtitulo3{
+    margin: auto;
+    background-color: #ffffffc5;
+    color: #02C6DB;
+    max-width: 520px !important;
+    min-width: 400px !important;
+    border-radius: 10px;
+    min-height: 35px !important;
+    max-height: 40px;
+}
+.parrafo-strong{
+    text-align: justify !important;
+    font-size: 20px;
+    color: #02C6DB;
+}
+.parrafo-strong1{
+    /* text-align: justify !important;  */
+    font-size: 20px;
+    color: #fff;
+
+}
+.parrafin{
+    background-color: #ffffffdc;
+    max-width: 520px !important;
+    min-width: 400px !important;
+    border-radius: 15px;
+}
+.parrafin1{
+    background-color: #4cda00b6;
+    max-width: 520px !important;
+    min-width: 400px !important;
+    border-radius: 15px;
+}
+.parrafin2{
+    background-color: #4cda00b6;
+    max-width: 520px !important;
+    min-width: 400px !important;
+    border-radius: 15px;
+}
+.parrafo-strong2{
+    /* text-align: justify !important; */
+    font-size: 20px;
+    color: #fff;
+    max-width: 450px !important;
+    min-width: 330px !important;
+}
+.parrafo-strong2:hover{
+    color: #02C6DB;
+    cursor: pointer;
+}
+.btn{   
+    border-radius: 50%;
+    background-color: #4CDA00;
+    width: 14rem;
+    height: 7rem;
+    color: #fff;
+    font-size: 55px;
+    font-family: holyfat;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #02C6DB;
+    border-color: #4CDA00;
+    cursor: wait;   
+}
+.video{
+    width: 400px;
+    height: 200px;
+}  
+
+
+#imgfin:hover{
+    filter: brightness(150%);
+    cursor: pointer;
+}
+
+
+
+
+footer{
+    background-color: #ffffffde;
+    background-size: 100%;
+
+}
+
+.logopie{
+    width: 100%;
+   
+}
+
+.loguito:hover{
+    filter: brightness(150%);
+    cursor: pointer;
+}
+.Texto{
+    text-align: center;
+}
+.Texto:hover{
+    color: #02C6DB;
+    cursor: pointer;
+}
+.redes{
+    display: flex;
+    width: 100px;
+    margin: auto;
+}
+.iconfeibu{
+    width: 40px;
+    margin: auto;
+    
+}
+.iconfeibu:hover{
+    cursor: pointer;
+   
+}
+.iconfeibu2:hover{
+    filter:brightness(300%);
+}
+.instagra2:hover{
+    filter:brightness(300%);
+}
+.instagra{
+    width: 40px;
+    margin: auto;
+}
+.instagra:hover{
+    cursor: pointer;
+}
